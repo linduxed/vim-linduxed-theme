@@ -29,9 +29,6 @@ augroup Syntax_extensions
     au Syntax javascript syn region javascriptSquareBrackets matchgroup=Operator start="\[" end="\]" transparent
 augroup END
 
-set statusline=%<%1*===\ %5*%f%1*%(\ ===\ %4*%h%1*%)%(\ ===\ %4*%m%1*%)%(\ ===\ %4*%r%1*%)\ ===%====\ %2*%b(0x%B)%1*\ ===\ %3*%l,%c%V%1*\ ===\ %5*%P%1*\ ===%0* laststatus=2
-
-
 hi Normal       ctermfg=255     ctermbg=none    cterm=none
 hi Directory    ctermfg=75      ctermbg=none    cterm=bold
 hi ErrorMsg     ctermfg=160     ctermbg=0       cterm=bold
