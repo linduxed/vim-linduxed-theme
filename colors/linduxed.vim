@@ -74,8 +74,8 @@ hi TabLineSel   ctermfg=104     ctermbg=236     cterm=bold
 
 " Cursor
 hi Cursor       ctermfg=255     ctermbg=57      cterm=none
-hi CursorLine   ctermfg=none    ctermbg=234     cterm=none
-hi CursorColumn ctermfg=none    ctermbg=234     term=reverse
+hi CursorLine   ctermfg=none    ctermbg=236     cterm=none
+hi CursorColumn ctermfg=none    ctermbg=236     term=reverse
 
 " Invisible characters
 hi SpecialKey   ctermfg=102     ctermbg=none    cterm=none
