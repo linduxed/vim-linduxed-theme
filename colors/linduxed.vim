@@ -89,3 +89,13 @@ hi MBEVisibleChanged        ctermfg=124     ctermbg=none    cterm=bold
 hi MBEVisibleNormal         ctermfg=45      ctermbg=none    cterm=bold
 hi MBEChanged               ctermfg=208     ctermbg=none    cterm=bold
 hi MBENormal                ctermfg=244     ctermbg=none    cterm=bold
+
+" Interesting Words {{{
+
+" These are only used if you're me or have copied the <leader>hNUM mappings
+" from my vimrc.
+hi InterestingWord1  ctermfg=none  ctermbg=20
+hi InterestingWord2  ctermfg=none  ctermbg=53
+hi InterestingWord3  ctermfg=none  ctermbg=58
+
+" }}}
