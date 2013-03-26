@@ -60,8 +60,8 @@ hi DiffDelete   ctermfg=52      ctermbg=52      cterm=none
 hi DiffText     ctermfg=none    ctermbg=24      cterm=none
 
 " Git commit mode
-hi diffAdded    ctermfg=1       ctermbg=none    cterm=bold
-hi diffRemoved  ctermfg=2       ctermbg=none    cterm=bold
+hi diffAdded    ctermfg=2       ctermbg=none    cterm=bold
+hi diffRemoved  ctermfg=1       ctermbg=none    cterm=bold
 
 " Completion menu
 hi Pmenu        ctermfg=69      ctermbg=235     cterm=none
