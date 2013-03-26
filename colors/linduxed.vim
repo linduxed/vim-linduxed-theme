@@ -38,7 +38,6 @@ hi Type         ctermfg=141     ctermbg=none    cterm=bold
 hi Statement    ctermfg=208     ctermbg=none    cterm=bold
 hi Comment      ctermfg=241     ctermbg=none    cterm=none
 hi LineNr       ctermfg=244     ctermbg=233     cterm=none
-hi DiffText     ctermfg=165     ctermbg=244     cterm=none
 hi Constant     ctermfg=76      ctermbg=none    cterm=none
 hi Todo         ctermfg=163     ctermbg=235     cterm=bold
 hi Identifier   ctermfg=226     ctermbg=none    cterm=bold
@@ -53,6 +52,12 @@ hi FoldColumn   ctermfg=104     ctermbg=none    cterm=none
 hi Folded       ctermfg=104     ctermbg=none    cterm=bold
 hi Visual       ctermfg=none    ctermbg=238     cterm=none
 hi Title        ctermfg=159     ctermbg=none    cterm=none
+
+" Diff mode
+hi DiffAdd      ctermfg=none    ctermbg=22     cterm=none
+hi DiffChange   ctermfg=none    ctermbg=17     cterm=none
+hi DiffDelete   ctermfg=52      ctermbg=52     cterm=none
+hi DiffText     ctermfg=none    ctermbg=24     cterm=none
 
 " Completion menu
 hi Pmenu        ctermfg=69      ctermbg=235     cterm=none
