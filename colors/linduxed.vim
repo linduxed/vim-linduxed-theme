@@ -54,10 +54,10 @@ hi Visual       ctermfg=none    ctermbg=238     cterm=none
 hi Title        ctermfg=159     ctermbg=none    cterm=none
 
 " Diff mode
-hi DiffAdd      ctermfg=none    ctermbg=22     cterm=none
-hi DiffChange   ctermfg=none    ctermbg=17     cterm=none
-hi DiffDelete   ctermfg=52      ctermbg=52     cterm=none
-hi DiffText     ctermfg=none    ctermbg=24     cterm=none
+hi DiffAdd      ctermfg=none    ctermbg=22      cterm=none
+hi DiffChange   ctermfg=none    ctermbg=17      cterm=none
+hi DiffDelete   ctermfg=52      ctermbg=52      cterm=none
+hi DiffText     ctermfg=none    ctermbg=24      cterm=none
 
 " Git commit mode
 hi diffAdded    ctermfg=1       ctermbg=none    cterm=bold
