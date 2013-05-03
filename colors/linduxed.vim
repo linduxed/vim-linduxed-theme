@@ -98,3 +98,8 @@ hi MBEVisibleChanged        ctermfg=124     ctermbg=none    cterm=bold
 hi MBEVisibleNormal         ctermfg=45      ctermbg=none    cterm=bold
 hi MBEChanged               ctermfg=208     ctermbg=none    cterm=bold
 hi MBENormal                ctermfg=244     ctermbg=none    cterm=bold
+
+" Indent guides
+" Add 'let g:indent_guides_auto_colors = 0' to your vimrc.
+hi IndentGuidesOdd          ctermfg=none    ctermbg=234     cterm=none
+hi IndentGuidesEven         ctermfg=none    ctermbg=235     cterm=none
